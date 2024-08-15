@@ -1,34 +1,17 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
-body {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto", sans-serif;
-}
 .nav-header-wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: #333;
-  color: white;
+  background-color: pink;
   padding: 1% 1% 1% 1%;
-  position: fixed;
-  width: 100%;
-  top: 0;
-}
-.nav-img-wrapper img {
-  position: relative;
-  width: 10%;
-  left: 3%;
+  white-space: nowrap;
+  justify-content: center;
+  align-items: center;
 }
 
-.nav-phone-number-wrapper {
-  position: relative;
-  font-size: 14px;
-  font-weight: bold;
-  white-space: nowrap;
-  right: 5%;
+.nav-img-wrapper img {
+  width: 20%;
 }
+
 .nav-phone-number {
-  text-decoration: none;
-  color: white;
+  font-size: 1.2em;
 }

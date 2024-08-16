@@ -3,11 +3,11 @@ import "./navBar.css";
 function NavBar() {
   return (
     <div className="nav-wrapper">
-      <div className="img-wrapper">
+      <div className="logo-wrapper">
         <img src="/images/your-logo.png" alt="Your Logo" class="logo" />
       </div>
       <div className="menu-wrapper">
-        <img src="/images/menu.png" class="menu" alt="menu"></img>
+      <img src="/images/menu.png" class="menu" alt="menu"></img>
       </div>
     </div>
   );

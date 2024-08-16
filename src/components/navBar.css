@@ -1,25 +1,51 @@
 .nav-wrapper {
   display: flex;
-  justify-content: center;
   align-items: center;
-  background-color: #0c0a09;
+  justify-content: center;
+  background-color: black;
   padding: 1% 1% 1% 1%;
-  position: absolute;
   width: 100%;
 }
 
-.img-wrapper .logo {
+.logo {
   width: 30%;
 }
-.logo {
-  position: relative;
-  left: 50%;
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
 }
 
 .menu {
   width: 50%;
-  left: 30%;
-}
-.menu {
+  align-items: center;
   position: relative;
+  
 }
+/* .menu-wrapper {
+  display: flex;
+  justify-content: flex-end;
+} */
+/* @media (min-width: 374px) and (max-width: 404px) {
+  .logo {
+    position: relative;
+    left: 13%;
+  }
+}
+@media (min-width: 406px) and (max-width: 420px) {
+  .logo {
+    position: relative;
+    left: 17%;
+  }
+}
+@media (min-width: 421px) and (max-width: 425px) {
+  .logo {
+    position: relative;
+    left: 18%;
+  }
+}
+@media (min-width: 426px) and (max-width: 436px) {
+    .logo {
+      position: relative;
+      left: 20%;
+    }
+  } */

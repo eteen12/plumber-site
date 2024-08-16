@@ -14,7 +14,7 @@ function NavHeader() {
       </div>
       <div className="nav-phone-number-wrapper">
         <a href="tel:+17785819151" className="nav-phone-number">
-          778-581-9151
+        📞778-581-9151
         </a>
       </div>
     </div>

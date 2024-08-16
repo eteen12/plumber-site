@@ -1,15 +1,25 @@
 .nav-wrapper {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: blue;
-  }
-  
-  .img-wrapper .logo {
-    width: 100px;
-  }
-  
-  .menu-wrapper .menu {
-    width: 50px;
-  }
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c0a09;
+  padding: 1% 1% 1% 1%;
+  position: absolute;
+  width: 100%;
+}
+
+.img-wrapper .logo {
+  width: 30%;
+}
+.logo {
+  position: relative;
+  left: 50%;
+}
+
+.menu {
+  width: 50%;
+  left: 30%;
+}
+.menu {
+  position: relative;
+}

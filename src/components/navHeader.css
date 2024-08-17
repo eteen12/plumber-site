@@ -36,11 +36,3 @@
     width: 6%;
   }
 }
-@media (min-width: 1000px) {
-  .nav-img-wrapper img {
-    left: 10%;
-  }
-  .nav-phone-number {
-    right: 40%;
-  }
-}

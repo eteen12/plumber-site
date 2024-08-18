@@ -5,7 +5,7 @@
 }
 .nav-wrapper {
   background-color: black;
-  box-shadow: 0px 4px 6px rgba(255, 0, 0, 0.5);
+  box-shadow: 0px 4px 6px rgba(255, 0, 0, 0.9);
   animation: flicker 1s ease-in-out;
 }
 .nav-content-wrapper {
@@ -104,32 +104,32 @@
     left: 16%;
   }
 }
-@media(min-width:474px) and (max-width:542px){
-  .logo{
+@media (min-width: 474px) and (max-width: 542px) {
+  .logo {
     width: 35%;
   }
   .logo-wrapper {
     position: relative;
     left: 16%;
-    margin-bottom:8px;
+    margin-bottom: 8px;
   }
-  .menu{
+  .menu {
     width: 20%;
-    margin-bottom:20px
+    margin-bottom: 20px;
   }
 }
-@media(min-width:543px) and (max-width:584px){
-  .logo{
+@media (min-width: 543px) and (max-width: 584px) {
+  .logo {
     width: 33%;
   }
   .logo-wrapper {
     position: relative;
     left: 16%;
-    margin-bottom:8px;
+    margin-bottom: 8px;
   }
-  .menu{
+  .menu {
     width: 20%;
-    margin-bottom:20px
+    margin-bottom: 20px;
   }
 }
 @keyframes flicker {
@@ -260,18 +260,18 @@
   .nav-content-wrapper {
     display: none;
   }
-  .nav-wrapper{
-    max-height: 40px;
+  .nav-wrapper {
+    max-height: 60px;
   }
   .logo-wrapper {
+    display: flex;
+    justify-content: flex-start;
   }
   .logo {
-    width: 100px;
-    max-width: 150px; /* Maximum width for the logo */
+    width: clamp(100px, 10vw, 150px);
+    max-width: 150px;
     min-width: 50px;
     height: auto;
-    position: relative;
-    right: 40%;
   }
   .nav-bar-large {
     display: grid;
@@ -281,11 +281,14 @@
     align-items: center;
     width: 100%;
   }
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .menu-wrapper ul {
     list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
   }
   .menu-wrapper li {
     margin: 0 15px;
@@ -296,7 +299,32 @@
     font-family: "Poppins", sans-serif;
     font-weight: 500;
   }
-  
+  .page:hover {
+    color: red;
+  }
 }
-@media (min-width: 491px) and (max-width: 500px) {
+@media (min-width: 1166px) {
+  .logo {
+    width: clamp(50px, 8.9vw, 150px);
+    height: auto;
+  }
 }
+@media (min-width: 1366px) {
+  .logo {
+    width: clamp(50px, 8vw, 150px);
+    height: auto;
+  }
+}
+@media (min-width: 1566px) {
+  .logo {
+    width: clamp(50px, 7.8vw, 150px);
+    height: auto;
+  }
+}
+@media (min-width: 1766px) {
+  .logo {
+    width: clamp(50px, 7vw, 150px);
+    height: auto;
+  }
+}
+

@@ -1,6 +1,7 @@
 import React from "react";
 import Footer from "./Footer";
 import NavBar from "./navBar";
+import HomePage from "./homePage";
 import "./mainPage.css";
 
 function MainPage() {
@@ -9,7 +10,11 @@ function MainPage() {
       <div className="nav-bar-wrapper">
         <NavBar />
       </div>
-      <div className="body"></div>
+      <div className="body">
+        <div className="home-page">
+          <HomePage />
+        </div>
+      </div>
       <div className="footer">
         <Footer />
       </div>

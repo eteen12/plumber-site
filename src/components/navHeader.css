@@ -6,6 +6,7 @@
   white-space: nowrap;
   align-items: center;
   width: 100%;
+  z-index:1;
 }
 
 .nav-img-wrapper img {

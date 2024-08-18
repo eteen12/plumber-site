@@ -40,6 +40,28 @@ function NavBar() {
           </li>
         </ul>
       </div>
+      {/* STYLING FOR BIGGER SCREENS!!!!!!! */}
+      <nav class="nav-bar-large">
+        <div class="logo-wrapper">
+          <img src="/images/your-logo.png" alt="Logo" class="logo" />
+        </div>
+        <div class="menu-wrapper">
+          <ul>
+            <li>
+              <a href="home" className="page">Home</a>
+            </li>
+            <li>
+              <a href="services" className="page">Services</a>
+            </li>
+            <li>
+              <a href="about" className="page">About</a>
+            </li>
+            <li>
+              <a href="contact" className="page">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
     </nav>
   );
 }

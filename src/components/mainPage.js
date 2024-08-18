@@ -6,13 +6,12 @@ import "./mainPage.css";
 function MainPage() {
   return (
     <div className="main-wrapper">
-      <div className="navs-wrapper">
-        <div className="nav-header-wrapper">
-          <NavHeader />
-        </div>
-        <div className="nav-bar-wrapper">
-          <NavBar />
-        </div>
+      <div className="nav-bar-wrapper">
+        <NavBar />
+      </div>
+      <div className="body"></div>
+      <div className="footer">
+        <NavHeader />
       </div>
     </div>
   );

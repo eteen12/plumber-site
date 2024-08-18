@@ -1,0 +1,26 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.main-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.nav-bar-wrapper {
+  /* Styles for nav-bar-wrapper */
+}
+
+.body {
+  flex: 1;
+}
+
+.footer {
+  padding-bottom: 1%;
+  bottom: 0;
+  width: 100%;
+  position: fixed;
+}

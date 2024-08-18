@@ -1,5 +1,5 @@
 import React from "react";
-import NavHeader from "./navHeader";
+import Footer from "./Footer";
 import NavBar from "./navBar";
 import "./mainPage.css";
 
@@ -11,7 +11,7 @@ function MainPage() {
       </div>
       <div className="body"></div>
       <div className="footer">
-        <NavHeader />
+        <Footer />
       </div>
     </div>
   );

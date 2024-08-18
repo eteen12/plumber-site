@@ -1,6 +1,6 @@
 import React from "react";
-import "./navHeader.css";
-function NavHeader() {
+import "./Footer.css";
+function Footer() {
   return (
     <div className="nav-header-wrapper">
       <div className="nav-img-wrapper">
@@ -21,4 +21,4 @@ function NavHeader() {
   );
 }
 
-export default NavHeader;
+export default Footer;

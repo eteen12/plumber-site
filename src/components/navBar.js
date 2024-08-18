@@ -48,16 +48,16 @@ function NavBar() {
         <div class="menu-wrapper">
           <ul>
             <li>
-              <a href="home" className="page">Home</a>
+              <a href="/home" className="page">Home</a>
             </li>
             <li>
-              <a href="services" className="page">Services</a>
+              <a href="/services" className="page">Services</a>
             </li>
             <li>
-              <a href="about" className="page">About</a>
+              <a href="/about" className="page">About</a>
             </li>
             <li>
-              <a href="contact" className="page">Contact</a>
+              <a href="/contact" className="page">Contact</a>
             </li>
           </ul>
         </div>

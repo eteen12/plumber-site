@@ -1,5 +1,6 @@
 .nav-wrapper {
   width: 100%;
+  height: 50px;
   padding: 1% 1% 2% 1%;
 }
 .nav-wrapper {
@@ -28,17 +29,31 @@
   right: 5.5%;
 }
 .logo {
-  max-width: 90px;
+  width: 100px;
   position: relative;
 }
 .menu {
   width: 50px;
   height: auto;
 }
-@media (min-width: 320px) and (max-width: 343px) {
+@media (min-width: 320px) {
+  .logo {
+    width: 40%;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  .menu {
+    width: 25%;
+    position: relative;
+    margin-bottom: 12px;
+  }
+}
+@media (min-width: 321px) and (max-width: 343px) {
   .logo-wrapper {
     position: relative;
     left: 25%;
+  }
+  .logo {
   }
 }
 @media (min-width: 344px) and (max-width: 359px) {
@@ -87,6 +102,34 @@
   .logo-wrapper {
     position: relative;
     left: 16%;
+  }
+}
+@media(min-width:474px) and (max-width:542px){
+  .logo{
+    width: 35%;
+  }
+  .logo-wrapper {
+    position: relative;
+    left: 16%;
+    margin-bottom:8px;
+  }
+  .menu{
+    width: 20%;
+    margin-bottom:20px
+  }
+}
+@media(min-width:543px) and (max-width:584px){
+  .logo{
+    width: 33%;
+  }
+  .logo-wrapper {
+    position: relative;
+    left: 16%;
+    margin-bottom:8px;
+  }
+  .menu{
+    width: 20%;
+    margin-bottom:20px
   }
 }
 @keyframes flicker {
@@ -209,50 +252,57 @@
 }
 
 /* styling for larger screens */
-@media (min-width: 490px) {
+@media (min-width: 585px) {
   .slide-in-menu {
     display: none;
   }
+
   .nav-content-wrapper {
     display: none;
   }
-  .logo{
-
+  .nav-wrapper{
+    max-height: 40px;
+  }
+  .logo-wrapper {
+  }
+  .logo {
+    width: 100px;
+    max-width: 150px; /* Maximum width for the logo */
+    min-width: 50px;
+    height: auto;
+    position: relative;
+    right: 40%;
   }
   .nav-bar-large {
     display: flex;
-    white-space: nowrap;
     justify-content: space-between;
     align-items: center;
-    height: auto;
-    box-sizing: border-box;/* LIFE SAVER!!!!*/
     width: 100%;
-    height: 40px;
-  }
-  .logo-wrapper {
-    position: static;
-    margin-left: 20px;
+    height: 10vh;
+    box-sizing: border-box; /* Life saver! */
   }
   .menu-wrapper {
     display: flex;
-    align-items: flex-end;
-    bottom: 0;
+    align-items: center; /* Center items vertically */
   }
   .menu-wrapper ul {
     list-style: none;
     display: flex;
+    margin: 0;
+    padding: 0;
   }
   .menu-wrapper li {
     margin: 0 15px;
   }
-  a {
+  .menu-wrapper a {
     text-decoration: none;
     color: white;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
-    display: block;
   }
-  .page{
-    padding-top:px
+  .page {
+    padding-top: 10vh;
   }
+}
+@media (min-width: 491px) and (max-width: 500px) {
 }

@@ -11,6 +11,10 @@ function HomePage() {
           className="home-img"
         />
       </div>
+      <div className="text-wrapper">
+          <p className="text-header">Kelownas Choice</p>
+          <h1 className="text">PLUMBING & PLUMBING CO</h1>
+        </div>
     </div>
   );
 }
